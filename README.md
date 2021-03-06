@@ -2,7 +2,7 @@
 
 # Instructions :
 
-   https://youtu.be/5OtY9JH3NjM
+   https://youtu.be/5OtY9JH3NjM  <-- Follow instructions from there.
   
 # Requirements :
 
