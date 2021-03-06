@@ -4,3 +4,7 @@
 
   youtube
   
+# Requirements :
+
+Install and activate openvino environment.
+  
