@@ -12,7 +12,7 @@ import numpy as np
 from openvino.inference_engine import IECore
 import monitors
 sys.path.append(osp.join(osp.dirname(osp.dirname(osp.abspath(__file__))), 'common'))
-
+#camera = "0" # using webcam
 camera = "video/despacito.mp4"
 model ="model/human-pose-estimation-0001.xml"
 #architecture_type=['ae', 'openpose']
@@ -21,7 +21,7 @@ prob_threshold=0.1
 device = "CPU"
 num_infer_requests=1
 num_streams=''
-num_threads= 2
+num_threads= None
 loop = 0
 utilization_monitors=''
 raw_output_message=False
